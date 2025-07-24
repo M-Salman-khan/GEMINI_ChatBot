@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100dvh;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.caption {
+  color: rgb(91, 90, 90);
+}
+.container {
+  width: 60%;
+  max-width: 500px;
+  height: 60dvh;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 15px;
+  padding: 15px 20px;
+}
+.chatSection {
+  height: 72%;
+}
+.msg {
+  border-top: 1px solid rgb(214, 214, 214);
+}
+.fa-robot {
+  width: 1.7rem;
+  height: 1.7rem;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+}
+.header {
+  display: flex;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+.headerCaption {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 0 10px;
+}
+.headerCaption p:nth-child(2) {
+  color: gray;
+  font-size: 12px;
+}
+.headerCaption p:nth-child(1) {
+  color: black;
+  font-size: 15px;
+}
+.chatSection {
+  padding: 20px 0;
+  overflow-y: auto;
+}
+.response {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  align-items: end;
+  margin: 10px 0px;
+}
+.response p {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.response i {
+  background-color: rgb(214, 214, 214);
+  display: flex;
+}
+.userChat {
+  margin: 10px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.userChat p {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.userChat i {
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(214, 214, 214);
+  border-radius: 50%;
+}
+.msg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.msg input {
+  width: 100%;
+  border: 1px solid transparent;
+  outline: 4px solid transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.msg input:focus {
+  border-color: rgb(207, 204, 204);
+  outline: 4px solid rgb(202, 202, 202);
+  transition-duration: 0.3s;
+}
+.msg i {
+  padding: 7px 5px;
+  cursor: pointer;
+  background-color: rgb(207, 206, 206);
+  border-radius: 7px;
+  margin-left: 10px;
+}
