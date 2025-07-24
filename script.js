@@ -11,6 +11,7 @@ async function sendMessage() {
   let userInput = document.querySelector("#userInput");
   let message = userInput.value.trim();
   if (message === "") return;
+  const API_KEY="your_GEMINI_API_KEY"
   chatSection.insertAdjacentHTML(
     "beforeend",
     `
